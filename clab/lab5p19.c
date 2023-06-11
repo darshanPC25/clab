@@ -1,11 +1,25 @@
 //WAP in c to check Weather the number is prime or not 
 #include<stdio.h>
+int main() {
+    int number, i = 2;
+    int isPrime = 1;
 
-int main(){
-    int num;
-    int a,f=0;
-    printf("Enter The Number For checking The number is Prime or Not: ");
-    scanf("%d",&num);
+    printf("Enter a number: ");
+    scanf("%d", &number);
 
-    while()
+    while (i <= number / 2) {
+        if (number % i == 0) {
+            isPrime = 0;
+            break;
+        }
+        i++;
+    }
+
+    if (isPrime == 1 && number != 1) {
+        printf("%d is a prime number.\n", number);
+    } else {
+        printf("%d is not a prime number.\n", number);
+    }
+
+    return 0;
 }
