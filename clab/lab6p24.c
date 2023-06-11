@@ -12,4 +12,6 @@ int main(){
         num++;
     }
         printf("Sum is %d\n",sum);
+        return 0;
+        
 }

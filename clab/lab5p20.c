@@ -14,6 +14,7 @@ int main(){
     while(num>0){
         a=num%10;
         sum=sum+pow(a,i);
+        printf("%d\n",pow(a,i));
         num/=10;
     }                           
     if (sum==org){
