@@ -3,7 +3,7 @@
 int main(){
     int term,i;
     int a[100],b[100];
-    
+//Input of Array Elements.
     printf("Enter The number of term: ");
     scanf("%d",&term);
 //Input of array 
