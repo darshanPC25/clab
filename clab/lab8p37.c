@@ -3,10 +3,11 @@
 int main(){
     int term,i,great1,great2;
     int a[100];
+//Input of Terms.
     printf("Enter The Number of Term: ");
     scanf("%d",&term);
 
-//Input of Array.
+//Input of Array Elements.
     for(i=0;i<term;i++){
         printf("Enter The Elements: ");
         scanf("%d",&a[i]);
